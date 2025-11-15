@@ -1,0 +1,211 @@
+<RaceDefs><List>
+
+<RaceDef Name="JYLong" Parent="JYBase">
+	<DisplayName>Dragon Beast</DisplayName>
+	<Desc>Sealed Dragon Beast</Desc>
+	<Mod>Mod/Npc/YouLong/Base</Mod>
+	<NameGeneratorPrefix>JYAnimal/Prefix_Rabbit.txt</NameGeneratorPrefix>
+	<RaceType>Animal</RaceType>
+	<Revive>0</Revive>
+	<MaleName>公</MaleName>
+	<FemaleName>母</FemaleName>
+	<NormalAttack>JYRabbit_NormalAttack</NormalAttack>
+	<Body>QuadrupedBody</Body>
+	<HasGenders>0</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>1000</GenerateMinAge>
+	<GenerateMaxAge>1000</GenerateMaxAge>
+	<AdultAge>500</AdultAge>
+	<FreeLength>2.7</FreeLength>
+	<FreeAni>
+		<li>Free</li>
+		<li>Free2</li>
+	</FreeAni>
+	<WarningRange>0</WarningRange>
+	<StrikeBack>0.2</StrikeBack>
+	<WinterHide>0</WinterHide>
+	<RebornRace>Rabbit</RebornRace>
+	<IllustratedHandLabel>JYAnimal</IllustratedHandLabel>
+	<TexPath>tex://res/Sprs/tujian/TJ_JYtuzi01</TexPath>
+	<Rolepaint>res/Sprs/tujian/TJ_JYtuzi01</Rolepaint>
+	<HorseItem>Item_HorseFromJYLong</HorseItem>
+	<HorseData>
+		<Mod>Mod/Npc/YouLong/Base</Mod>
+		<RideBip>Bip001 Head</RideBip>
+		<Scale>1.2</Scale> <!-- 0.4 for boss-->
+		<OffsetX>0</OffsetX>
+		<OffsetY>-0.05</OffsetY>
+		<OffsetZ>0</OffsetZ>
+	</HorseData>	
+</RaceDef>
+
+
+<RaceDef Name="JYFeng"  Parent="JYBase">
+	<DisplayName>Phoenix Beast</DisplayName>            
+	<Desc>Sealed Phoenix Beast</Desc>                                 
+	<Mod>Mod/Npc/BossFeng/Base</Mod>                                           
+	<Revive>0</Revive>                                                        
+	<NameGeneratorPrefix>JYAnimal/Prefix_Chicken.txt</NameGeneratorPrefix>
+	<RaceType>Animal</RaceType>                                               
+	<MaleName>公</MaleName>                                                   
+	<FemaleName>母</FemaleName>                                               
+	<NormalAttack>Chicken_NormalAttack</NormalAttack>                         
+	<Body>QuadrupedBody</Body>                                                
+	<HasGenders>0</HasGenders>
+	<HasEquip>0</HasEquip>
+	<LeaveBody>0</LeaveBody>
+	<GenerateMinAge>1000</GenerateMinAge>
+	<GenerateMaxAge>1000</GenerateMaxAge>
+	<AdultAge>500</AdultAge>                                                 
+	<FreeAnis>
+		<li Name="Free" Length="3.3"/>
+		<li Name="Free2" Length="3.2"/>
+	</FreeAnis>                                       
+	<WarningRange>0</WarningRange>                                            
+	<StrikeBack>0.2</StrikeBack>                                              
+	<WinterHide>0</WinterHide>                                                
+	<RebornRace>Chicken</RebornRace>    
+	<IllustratedHandLabel>JYAnimal</IllustratedHandLabel>   
+	<TexPath>tex://res/Sprs/tujian/TJ_JYji01</TexPath>      
+	<Rolepaint>res/Sprs/tujian/TJ_JYji01</Rolepaint>   
+	<HorseItem>Item_HorseFromJYFeng</HorseItem>                          
+	<HorseData>
+		<Mod>Mod/Npc/BossFeng/Base</Mod>
+		<RideBip>Bip001 R Clavicle</RideBip>
+		<Scale>0.4</Scale>
+		<OffsetX>0.2</OffsetX>
+		<OffsetY>0.23</OffsetY>
+		<OffsetZ>0.7</OffsetZ>
+	</HorseData>                                                                                    
+</RaceDef>
+<!--
+<RaceDef Name="JYLongNight" Parent="JYBase">
+	<DisplayName>Long -Dạ-</DisplayName>
+	<Desc>Tôi tớ Chúc Long (Dạ chủng)</Desc>
+	<Mod>Mod/Npc/Longzhipuyi_night/Base</Mod>
+	<RaceType>Animal</RaceType>
+	<Revive>0</Revive>
+	<NormalAttack>JYLongPu_Night_NormalAttack</NormalAttack>
+	<Body>SnakeBody</Body>
+	<HasGenders>0</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>0.5</GenerateMinAge>
+	<GenerateMaxAge>45</GenerateMaxAge>
+	<AdultAge>40</AdultAge>
+	<LeaveBody>0</LeaveBody>
+	<StrikeBack>1</StrikeBack>
+	<WarningRange>0</WarningRange>
+	<WinterHide>0</WinterHide>
+	<RebornRace>Snake</RebornRace>
+	<IllustratedHandLabel>JYAnimal</IllustratedHandLabel>
+	<TexPath>tex://res/Sprs/tujian/TJ_longzhipuyiye01</TexPath>
+	<Rolepaint>res/Sprs/tujian/TJ_longzhipuyiye01</Rolepaint>
+	<HorseItem>Item_HorseFromJYLongNight</HorseItem>                          
+	<HorseData>
+		<Mod>Mod/Npc/Longzhipuyi_night/Base</Mod>
+		<RideBip>Bip001 Spine1</RideBip>
+		<Scale>2</Scale>
+		<OffsetX>0</OffsetX>
+		<OffsetY>1.5</OffsetY>
+		<OffsetZ>0</OffsetZ>
+	</HorseData> 
+</RaceDef>
+
+<RaceDef Name="JYLongDay" Parent="JYLongpuNight">
+	<DisplayName>Long -Nhật-</DisplayName>
+	<Desc>Tôi tớ Chúc Long (Nhật chủng)</Desc>
+	<Mod>Mod/Npc/Longzhipuyi_day/Base</Mod>
+	<NormalAttack>JYLongPu_Day_NormalAttack</NormalAttack>
+	<Body>SnakeBody</Body>
+	<HasGenders>0</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>0.5</GenerateMinAge>
+	<GenerateMaxAge>45</GenerateMaxAge>
+	<AdultAge>40</AdultAge>
+	<LeaveBody>0</LeaveBody>
+	<StrikeBack>1</StrikeBack>
+	<WarningRange>0</WarningRange>
+	<WinterHide>0</WinterHide>
+	<RebornRace>Snake</RebornRace>
+	<IllustratedHandLabel>JYAnimal</IllustratedHandLabel>
+	<TexPath>tex://res/Sprs/tujian/TJ_longzhipuyizhou01</TexPath>
+	<Rolepaint>res/Sprs/tujian/TJ_longzhipuyizhou01</Rolepaint>
+	<HorseItem>Item_HorseFromJYLongDay</HorseItem>                          
+	<HorseData>
+		<Mod>Mod/Npc/Longzhipuyi_day/Base</Mod>
+		<RideBip>Bip001 R Clavicle</RideBip>
+		<Scale>1.5</Scale>
+		<OffsetX>0.2</OffsetX>
+		<OffsetY>0.23</OffsetY>
+		<OffsetZ>0.7</OffsetZ>
+	</HorseData>
+</RaceDef>
+
+
+<RaceDef Name="JYLongENian" Parent="JYLongpuNight">
+	<DisplayName>Ác niệm Long</DisplayName>
+	<Desc>Ác niệm chi Long</Desc>
+	<Mod>Mod/Npc/Longzhipuyi_Dark/Base</Mod>
+	<NormalAttack>JYLongPu_Night_NormalAttack</NormalAttack>
+	<LingKill>1</LingKill>
+	<NoLingering>1</NoLingering>
+	<FightDriver>Enian</FightDriver>
+	<Body>SnakeBody</Body>
+	<HasGenders>0</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>0.5</GenerateMinAge>
+	<GenerateMaxAge>45</GenerateMaxAge>
+	<AdultAge>40</AdultAge>
+	<LeaveBody>0</LeaveBody>
+	<StrikeBack>1</StrikeBack>
+	<WarningRange>0</WarningRange>
+	<WinterHide>0</WinterHide>
+	<RebornRace>Snake</RebornRace>
+	<IllustratedHandLabel>JYAnimal</IllustratedHandLabel>
+	<TexPath>tex://res/Sprs/tujian/TJ_enianlongxing01</TexPath>
+	<Rolepaint>res/Sprs/tujian/TJ_enianlongxing01</Rolepaint>
+	<HorseItem>Item_HorseFromJYLongENian</HorseItem>                          
+	<HorseData>
+		<Mod>Mod/Npc/Longzhipuyi_Dark/Base</Mod>
+		<RideBip>Bip001 R Clavicle</RideBip>
+		<Scale>0.4</Scale>
+		<OffsetX>0.2</OffsetX>
+		<OffsetY>0.23</OffsetY>
+		<OffsetZ>0.7</OffsetZ>
+	</HorseData>
+</RaceDef>
+
+<RaceDef Name="JYLongShanNian" Parent="JYLongpuNight">
+	<DisplayName>Thiện niệm Long</DisplayName>
+	<Desc>Thiện niệm chi Long</Desc>
+	<Mod>Mod/Npc/Longzhipuyi_Light/Base</Mod>
+	<NormalAttack>JYLongPu_Day_NormalAttack</NormalAttack>
+	<FightDriver>Shannian</FightDriver>
+	<LingKill>1</LingKill>
+	<NoLingering>1</NoLingering>
+	<Body>SnakeBody</Body>
+	<HasGenders>0</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>0.5</GenerateMinAge>
+	<GenerateMaxAge>45</GenerateMaxAge>
+	<AdultAge>40</AdultAge>
+	<LeaveBody>0</LeaveBody>
+	<StrikeBack>1</StrikeBack>
+	<WarningRange>0</WarningRange>
+	<WinterHide>0</WinterHide>
+	<RebornRace>Snake</RebornRace>
+	<IllustratedHandLabel>JYAnimal</IllustratedHandLabel>
+	<TexPath>tex://res/Sprs/tujian/TJ_shannianlongxing01</TexPath>
+	<Rolepaint>res/Sprs/tujian/TJ_shannianlongxing01</Rolepaint>
+	<HorseItem>Item_HorseFromJYLongShanNian</HorseItem>                          
+	<HorseData>
+		<Mod>Mod/Npc/Longzhipuyi_Light/Base</Mod>
+		<RideBip>Bip001 Spine2</RideBip>
+		<Scale>2</Scale>
+		<OffsetX>0</OffsetX>
+		<OffsetY>2</OffsetY>
+		<OffsetZ>0</OffsetZ>
+	</HorseData>
+</RaceDef>
+			-->
+</List></RaceDefs>

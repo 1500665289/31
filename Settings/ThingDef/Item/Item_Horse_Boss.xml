@@ -1,0 +1,231 @@
+﻿<ThingDefs><List>
+
+	<ThingDef Type="Item" Name="Item_HorseFromJYLong" Parent="Item_HorseBase">	
+		<ThingName>灵契：龙</ThingName>
+		<Beauty>15</Beauty>
+		<Rate>12</Rate>
+		<Item Lable="Horse">	
+			<NoHelian>1</NoHelian>
+			<BeMade>
+              <CostStuffCount>1</CostStuffCount>
+               <CostItems>
+                 <Item name="Item_LingStone" count="1" />
+               </CostItems>
+            </BeMade>
+			<Equip>
+				<EquptData>
+					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
+					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
+					<li modifier="Modifier_Horse_JYLong_0" ValueScaleType="1"/>
+				</EquptData>
+				<HorseData>
+					<FromRace>JYLong</FromRace>
+					<Speed>20</Speed>
+					<HRate>3</HRate>
+				</HorseData>
+			</Equip>
+		</Item>	
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>MedicineTable</Building>
+            <Count>1</Count>
+          </li>
+          <li>
+            <Building>MaterialWorkPlace</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_HorseFromJYFeng" Parent="Item_HorseBase">	
+		<ThingName>灵契：凤</ThingName>
+		<Beauty>15</Beauty>
+		<Rate>12</Rate>
+		<Item Lable="Horse">	
+			<NoHelian>1</NoHelian>
+			<BeMade>
+              <CostStuffCount>1</CostStuffCount>
+               <CostItems>
+                 <Item name="Item_LingStone" count="1" />
+               </CostItems>
+            </BeMade>
+			<Equip>
+				<EquptData>
+					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
+					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
+					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
+				</EquptData>
+				<HorseData>
+					<FromRace>JYFeng</FromRace>
+					<Speed>20</Speed>
+					<HRate>12</HRate>
+				</HorseData>
+			</Equip>
+		</Item>	
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>MedicineTable</Building>
+            <Count>1</Count>
+          </li>
+          <li>
+            <Building>MaterialWorkPlace</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+	</ThingDef>
+<!--
+	<ThingDef Type="Item" Name="Item_HorseFromJYLongNight" Parent="Item_HorseBase">	
+		<ThingName>Linh khế: Long -Dạ-</ThingName>
+		<Beauty>15</Beauty>
+		<Rate>12</Rate>
+		<Item Lable="Horse">	
+			<NoHelian>1</NoHelian>
+			<Prices>
+				<TalkType>3</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="15000"/>
+					<SalePrice Value="0" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="1500" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="50000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<Equip>
+				<EquptData>
+					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
+					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
+					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
+				</EquptData>
+				<HorseData>
+					<FromRace>JYLongNight</FromRace>
+					<Speed>20</Speed>
+					<HRate>12</HRate>
+				</HorseData>
+			</Equip>
+		</Item>	
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_HorseFromJYLongDay" Parent="Item_HorseBase">	
+		<ThingName>Linh khế: Long -Dạ-</ThingName>
+		<Beauty>15</Beauty>
+		<Rate>12</Rate>
+		<Item Lable="Horse">	
+			<NoHelian>1</NoHelian>
+			<Prices>
+				<TalkType>3</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="15000"/>
+					<SalePrice Value="0" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="1500" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="50000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<Equip>
+				<EquptData>
+					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
+					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
+					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
+				</EquptData>
+				<HorseData>
+					<FromRace>JYLongDay</FromRace>
+					<Speed>20</Speed>
+					<HRate>12</HRate>
+				</HorseData>
+			</Equip>
+		</Item>	
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_HorseFromJYLongENian" Parent="Item_HorseBase">	
+		<ThingName>Linh khế: Long -Dạ-</ThingName>
+		<Beauty>15</Beauty>
+		<Rate>12</Rate>
+		<Item Lable="Horse">	
+			<NoHelian>1</NoHelian>
+			<Prices>
+				<TalkType>3</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="15000"/>
+					<SalePrice Value="0" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="1500" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="50000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<Equip>
+				<EquptData>
+					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
+					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
+					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
+				</EquptData>
+				<HorseData>
+					<FromRace>JYLongENian</FromRace>
+					<Speed>20</Speed>
+					<HRate>12</HRate>
+				</HorseData>
+			</Equip>
+		</Item>	
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_HorseFromJYLongShanNian" Parent="Item_HorseBase">	
+		<ThingName>Linh khế: Long -Dạ-</ThingName>
+		<Beauty>15</Beauty>
+		<Rate>12</Rate>
+		<Item Lable="Horse">	
+			<NoHelian>1</NoHelian>
+			<Prices>
+				<TalkType>3</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="15000"/>
+					<SalePrice Value="0" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="1500" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="50000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<Equip>
+				<EquptData>
+					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
+					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
+					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
+				</EquptData>
+				<HorseData>
+					<FromRace>JYLongShanNian</FromRace>
+					<Speed>20</Speed>
+					<HRate>12</HRate>
+				</HorseData>
+			</Equip>
+		</Item>	
+	</ThingDef>
+	-->
+</List></ThingDefs>

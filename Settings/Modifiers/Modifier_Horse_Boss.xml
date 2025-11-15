@@ -1,0 +1,51 @@
+<ModifierDefs><List>	
+	<Modifier Name="Modifier_Boss_Travelspeed_0" Type="Normal">
+		<DisplayName>Base Adventure Speed Bonus</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>  
+			<li Name="WorldMapFlySpeedAddP" AddV="3"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="Modifier_Boss_MaxLing_0" Type="Normal" Parent="Modifier_Horse_All_0">
+		<DisplayName>Max Qi Bonus</DisplayName>
+		<Properties>  
+			<li Name="NpcLingMaxValue" AddP="25"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="Modifier_Horse_JYLong_0" Type="Normal" Parent="Modifier_Horse_All_0">
+		<DisplayName>Бъ</DisplayName>
+		<Skills>
+			<li Name="Fight" LevelOver="5"/>
+			<li Name="Fabao" LevelOver="5"/>
+			<li Name="FightSkill" LevelOver="5"/>
+			<li Name="Barrier" LevelOver="5"/>
+		</Skills>
+		<UnLockMagic>
+			<li>PrayForZhenShuiJieJie_JYLong</li>
+			<li>PrayForBeiDouJianJie_JYBoss</li>
+			<li>Magic_Healing_Hot_JYLong</li>
+			<li>YouTongLing_Item_JYLong</li>
+			<li>BuildLingWater_JYLong</li>
+		</UnLockMagic>
+	</Modifier> 
+	<Modifier Name="Modifier_Horse_JYFeng_0" Type="Normal" Parent="Modifier_Horse_All_0">
+		<DisplayName>·п</DisplayName>
+		<Skills>
+			<li Name="Fight" LevelOver="5"/>
+			<li Name="Fabao" LevelOver="5"/>
+			<li Name="FightSkill" LevelOver="5"/>
+			<li Name="Barrier" LevelOver="5"/>
+		</Skills>
+		<UnLockMagic>
+			<li>PrayForZhenHuoJieJie_JYFeng</li>
+			<li>PrayForBeiDouJianJie_JYBoss</li>
+			<li>Magic_Healing_Freeze_JYFeng</li>
+			<li>ZaoHuaSuTi_JYFeng</li>
+			<li>BuildLing_JYFeng</li>
+		</UnLockMagic>
+	</Modifier> 
+</List></ModifierDefs>

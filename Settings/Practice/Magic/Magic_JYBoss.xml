@@ -1,0 +1,118 @@
+﻿<Magics><List>
+
+	<Magic Name="BuildLing_JYFeng" Type="Class">
+		<DisplayName>造化灵土</DisplayName>
+		<Desc>凤凰利用魔法，将指定地点改造为超级灵土（肥沃程度2.6）</Desc>
+		<CMD>dasda</CMD>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<SelectMode>Ellipse</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<sParam1>LingSoil</sParam1>
+		<Param1>49</Param1>
+		<SelectTarget>InLight</SelectTarget>
+		<ClassName>Magic_BuildSea</ClassName>
+		<MaxArea>64</MaxArea>
+		<TargetDesc>请选择一块土地或水池</TargetDesc>
+		<CostLing>20000</CostLing>
+	</Magic>
+	
+	<Magic Name="BuildLingWater_JYLong" Type="Class">
+		<DisplayName>造化灵池</DisplayName>
+		<Desc>浮龙利用魔法，将指定地点化为灵池（肥沃程度2.6）</Desc>
+		<CMD>dasda</CMD>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<SelectMode>Ellipse</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<sParam1>LingWater</sParam1>
+		<Param1>65</Param1>
+		<SelectTarget>InLight</SelectTarget>
+		<ClassName>Magic_BuildSea</ClassName>
+		<MaxArea>64</MaxArea>
+		<TargetDesc>请选择一块土地或水池</TargetDesc>
+		<CostLing>20000</CostLing>
+	</Magic>
+
+	<Magic Name="PrayForZhenShuiJieJie_JYLong">
+		<DisplayName>凛冬之息</DisplayName>
+		<Desc>浮龙利用寒气创造了镇水结界，导致气温下降.</Desc>
+		<Icon>res\Sprs\ui\icon_qiuyu01</Icon>
+		<Kind>Good</Kind>
+		<Ani>shentong1</Ani>
+		<Param1>5.334</Param1><!--施法时间-->
+		<sParam1>Weather_Magic_ZhenShuiJieJie</sParam1><!--天气名称，可以用逗号隔开-->
+		<CostLing>3000</CostLing>
+		<CostAge>0</CostAge>
+		<CMD>AbsorbGong_15</CMD>
+	</Magic>
+
+	<Magic Name="PrayForZhenHuoJieJie_JYFeng">
+		<DisplayName>九阳神火界</DisplayName>
+		<Desc>沟通凤凰，召唤九阳神火界，法术威力大幅提高</Desc>
+		<Icon>res\Sprs\ui\icon_chifeng01</Icon>
+		<Kind>Good</Kind>
+		<Ani>shentong1</Ani>
+		<Param1>5.334</Param1><!--施法时间-->
+		<sParam1>Weather_Magic_ZhenHuoJieJie</sParam1><!--天气名称，可以用逗号隔开-->
+		<CostLing>3000</CostLing>
+		<CostAge>0</CostAge>
+		<CMD>AbsorbGong_15</CMD>
+	</Magic>
+	<Magic Name="PrayForBeiDouJianJie_JYBoss">
+		<DisplayName>北斗剑界</DisplayName>
+		<Desc>召唤北斗剑界，法定威力大幅提高</Desc>
+		<Icon>res\Sprs\ui\icon_zhaolei01</Icon>
+		<Kind>Good</Kind>
+		<Ani>shentong1</Ani>
+		<Param1>5.334</Param1><!--施法时间-->
+		<sParam1>Weather_Magic_BeiDouJianJie</sParam1><!--天气名称，可以用逗号隔开-->
+		<CostLing>3000</CostLing>
+		<CostAge>0</CostAge>
+		<CMD>AbsorbGong_15</CMD>
+	</Magic>
+	<Magic Name="Magic_Healing_Hot_JYLong">
+		<DisplayName>冰灵术</DisplayName>
+		<Desc>治疗一名中暑的弟子</Desc>
+		<Icon>res\Sprs\ui\icon_huashang01</Icon>
+		<Kind>Good</Kind>
+		<CostLing>1000</CostLing>
+		<Penalty>0</Penalty>
+		<CMD>Healing_Damage</CMD>
+		<CastFavour>ThankTreat</CastFavour>
+		<SelectType>NpcWithSelf</SelectType>
+	</Magic>
+	<Magic Name="Magic_Healing_Freeze_JYFeng">
+		<DisplayName>炉温术</DisplayName>
+		<Desc>治疗一名冻伤的弟子</Desc>
+		<Icon>res\Sprs\ui\icon_huashang01</Icon>
+		<Kind>Good</Kind>
+		<CostLing>1000</CostLing>
+		<Penalty>0</Penalty>
+		<CMD>Healing_Damage</CMD>
+		<CastFavour>ThankTreat</CastFavour>
+		<SelectType>NpcWithSelf</SelectType>
+	</Magic>
+
+	<Magic Name="YouTongLing_Item_JYLong" Type="Class">
+		<DisplayName>命火筑灵</DisplayName>
+		<Desc>利用浮龙的魔力，使物品通灵，需要一定时间完成</Desc>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<SelectMode>Single</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<Param1>10</Param1><!-- 读条时间 -->
+		<SelectTarget>Item|NoTongLing</SelectTarget>
+		<ClassName>Magic_TongLing</ClassName>
+		<TargetDesc>请选择一个物品</TargetDesc>
+	</Magic>
+	
+		<Magic Name="ZaoHuaSuTi_JYFeng" Type="Class">
+		<DisplayName>造化塑体</DisplayName>
+		<Desc>利用凤凰魔法，将目标年龄重塑为14岁，并恢复损失的所有身体部位，如对精怪使用，侧为其塑造一具崭新的身体 </Desc>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<SelectMode>Single</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<Param1>10</Param1><!-- 读条时间 -->
+		<SelectTarget>ZaoHuaThing</SelectTarget>
+		<ClassName>Magic_ZaoHuaSuTi</ClassName>
+		<TargetDesc>请选择一个目标</TargetDesc>
+	</Magic>
+</List></Magics>
