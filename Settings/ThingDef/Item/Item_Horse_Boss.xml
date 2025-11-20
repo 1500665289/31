@@ -15,7 +15,7 @@
 			<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
-					<!--<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>-->
+					<--li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/-->
 					<li modifier="Modifier_Horse_JYLong_0" ValueScaleType="1"/>
 				</EquptData>
 				<HorseData>
@@ -56,10 +56,9 @@
 			<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
-					<!--<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>-->
+					<--li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/-->
 					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
 				</EquptData>
-
 				<HorseData>
 					<FromRace>JYFeng</FromRace>
 					<Speed>20</Speed>
@@ -91,23 +90,22 @@
 				<TalkType>3</TalkType>
 				<BaseCount>1</BaseCount>
 				<li PriceTag="School">
-					<BuyPrice Value="1000"/>
+					<BuyPrice Value="15000"/>
 					<SalePrice Value="0" />
 				</li>
 				<li PriceTag="Trade">
-					<BuyPrice Value="1000" />
+					<BuyPrice Value="1500" />
 					<SalePrice Value="200" />
 				</li>
 				<li PriceTag="Auction">
-					<BuyPrice Value="1000" />
+					<BuyPrice Value="50000" />
 					<SalePrice Value="0" />
 				</li>
 			</Prices>
-
 			<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
-					<!--<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>-->
+					<--li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/-->
 					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
 				</EquptData>
 				<HorseData>
@@ -129,25 +127,24 @@
 				<TalkType>3</TalkType>
 				<BaseCount>1</BaseCount>
 				<li PriceTag="School">
-					<BuyPrice Value="1000"/>
+					<BuyPrice Value="15000"/>
 					<SalePrice Value="0" />
 				</li>
 				<li PriceTag="Trade">
-					<BuyPrice Value="1000" />
+					<BuyPrice Value="1500" />
 					<SalePrice Value="200" />
 				</li>
 				<li PriceTag="Auction">
-					<BuyPrice Value="1000" />
+					<BuyPrice Value="50000" />
 					<SalePrice Value="0" />
 				</li>
 			</Prices>
 			<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
-					<!--<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>-->
+					<--li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/-->
 					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
 				</EquptData>
-
 				<HorseData>
 					<FromRace>JYLongDay</FromRace>
 					<Speed>20</Speed>
@@ -167,25 +164,24 @@
 				<TalkType>3</TalkType>
 				<BaseCount>1</BaseCount>
 				<li PriceTag="School">
-					<BuyPrice Value="1000"/>
+					<BuyPrice Value="15000"/>
 					<SalePrice Value="0" />
 				</li>
 				<li PriceTag="Trade">
-					<BuyPrice Value="1000" />
+					<BuyPrice Value="1500" />
 					<SalePrice Value="200" />
 				</li>
 				<li PriceTag="Auction">
-					<BuyPrice Value="1000" />
+					<BuyPrice Value="50000" />
 					<SalePrice Value="0" />
 				</li>
 			</Prices>
 			<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
-					<!--<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>-->
+					<--li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/-->
 					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
 				</EquptData>
-
 				<HorseData>
 					<FromRace>JYLongENian</FromRace>
 					<Speed>20</Speed>
@@ -205,22 +201,22 @@
 				<TalkType>3</TalkType>
 				<BaseCount>1</BaseCount>
 				<li PriceTag="School">
-					<BuyPrice Value="1000"/>
+					<BuyPrice Value="15000"/>
 					<SalePrice Value="0" />
 				</li>
 				<li PriceTag="Trade">
-					<BuyPrice Value="1000" />
+					<BuyPrice Value="1500" />
 					<SalePrice Value="200" />
 				</li>
 				<li PriceTag="Auction">
-					<BuyPrice Value="1000" />
+					<BuyPrice Value="50000" />
 					<SalePrice Value="0" />
 				</li>
 			</Prices>
 			<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
-					<!--<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>-->
+					<--li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/-->
 					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
 				</EquptData>
 				<HorseData>
