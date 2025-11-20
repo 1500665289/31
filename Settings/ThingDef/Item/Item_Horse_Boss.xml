@@ -12,13 +12,12 @@
                  <Item name="Item_LingStone" count="1000" />
                </CostItems>
             </BeMade>
-			<!--<Equip>
+			<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
-					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
+					<!--<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>-->
 					<li modifier="Modifier_Horse_JYLong_0" ValueScaleType="1"/>
-				</EquptData>-->
-
+				</EquptData>
 				<HorseData>
 					<FromRace>JYLong</FromRace>
 					<Speed>20</Speed>
@@ -54,12 +53,12 @@
                  <Item name="Item_LingStone" count="1000" />
                </CostItems>
             </BeMade>
-			<!--<Equip>
+			<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
-					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
+					<!--<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>-->
 					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
-				</EquptData>-->
+				</EquptData>
 
 				<HorseData>
 					<FromRace>JYFeng</FromRace>
@@ -105,13 +104,12 @@
 				</li>
 			</Prices>
 
-			<!--<Equip>
+			<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
-					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
+					<!--<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>-->
 					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
-				</EquptData>-->
-
+				</EquptData>
 				<HorseData>
 					<FromRace>JYLongNight</FromRace>
 					<Speed>20</Speed>
@@ -143,12 +141,12 @@
 					<SalePrice Value="0" />
 				</li>
 			</Prices>
-			<!--<Equip>
+			<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
-					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
+					<!--<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>-->
 					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
-				</EquptData>-->
+				</EquptData>
 
 				<HorseData>
 					<FromRace>JYLongDay</FromRace>
@@ -181,12 +179,12 @@
 					<SalePrice Value="0" />
 				</li>
 			</Prices>
-			<!--<Equip>
+			<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
-					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
+					<!--<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>-->
 					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
-				</EquptData>-->
+				</EquptData>
 
 				<HorseData>
 					<FromRace>JYLongENian</FromRace>
@@ -219,13 +217,12 @@
 					<SalePrice Value="0" />
 				</li>
 			</Prices>
-			<!--<Equip>
+			<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
-					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
+					<!--<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>-->
 					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
-				</EquptData>-->
-
+				</EquptData>
 				<HorseData>
 					<FromRace>JYLongShanNian</FromRace>
 					<Speed>20</Speed>
