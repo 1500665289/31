@@ -12,12 +12,13 @@
                  <Item name="Item_LingStone" count="1000" />
                </CostItems>
             </BeMade>
-			<Equip>
+			<!--<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
 					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
 					<li modifier="Modifier_Horse_JYLong_0" ValueScaleType="1"/>
-				</EquptData>
+				</EquptData>-->
+
 				<HorseData>
 					<FromRace>JYLong</FromRace>
 					<Speed>20</Speed>
