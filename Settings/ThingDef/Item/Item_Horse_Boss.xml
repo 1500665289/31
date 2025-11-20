@@ -53,12 +53,13 @@
                  <Item name="Item_LingStone" count="1000" />
                </CostItems>
             </BeMade>
-			<Equip>
+			<!--<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
 					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
 					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
-				</EquptData>
+				</EquptData>-->
+
 				<HorseData>
 					<FromRace>JYFeng</FromRace>
 					<Speed>20</Speed>
@@ -90,24 +91,26 @@
 				<TalkType>3</TalkType>
 				<BaseCount>1</BaseCount>
 				<li PriceTag="School">
-					<BuyPrice Value="15000"/>
+					<BuyPrice Value="1000"/>
 					<SalePrice Value="0" />
 				</li>
 				<li PriceTag="Trade">
-					<BuyPrice Value="1500" />
+					<BuyPrice Value="1000" />
 					<SalePrice Value="200" />
 				</li>
 				<li PriceTag="Auction">
-					<BuyPrice Value="50000" />
+					<BuyPrice Value="1000" />
 					<SalePrice Value="0" />
 				</li>
 			</Prices>
-			<Equip>
+
+			<!--<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
 					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
 					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
-				</EquptData>
+				</EquptData>-->
+
 				<HorseData>
 					<FromRace>JYLongNight</FromRace>
 					<Speed>20</Speed>
@@ -127,24 +130,25 @@
 				<TalkType>3</TalkType>
 				<BaseCount>1</BaseCount>
 				<li PriceTag="School">
-					<BuyPrice Value="15000"/>
+					<BuyPrice Value="1000"/>
 					<SalePrice Value="0" />
 				</li>
 				<li PriceTag="Trade">
-					<BuyPrice Value="1500" />
+					<BuyPrice Value="1000" />
 					<SalePrice Value="200" />
 				</li>
 				<li PriceTag="Auction">
-					<BuyPrice Value="50000" />
+					<BuyPrice Value="1000" />
 					<SalePrice Value="0" />
 				</li>
 			</Prices>
-			<Equip>
+			<!--<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
 					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
 					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
-				</EquptData>
+				</EquptData>-->
+
 				<HorseData>
 					<FromRace>JYLongDay</FromRace>
 					<Speed>20</Speed>
@@ -164,24 +168,25 @@
 				<TalkType>3</TalkType>
 				<BaseCount>1</BaseCount>
 				<li PriceTag="School">
-					<BuyPrice Value="15000"/>
+					<BuyPrice Value="1000"/>
 					<SalePrice Value="0" />
 				</li>
 				<li PriceTag="Trade">
-					<BuyPrice Value="1500" />
+					<BuyPrice Value="1000" />
 					<SalePrice Value="200" />
 				</li>
 				<li PriceTag="Auction">
-					<BuyPrice Value="50000" />
+					<BuyPrice Value="1000" />
 					<SalePrice Value="0" />
 				</li>
 			</Prices>
-			<Equip>
+			<!--<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
 					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
 					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
-				</EquptData>
+				</EquptData>-->
+
 				<HorseData>
 					<FromRace>JYLongENian</FromRace>
 					<Speed>20</Speed>
@@ -201,24 +206,25 @@
 				<TalkType>3</TalkType>
 				<BaseCount>1</BaseCount>
 				<li PriceTag="School">
-					<BuyPrice Value="15000"/>
+					<BuyPrice Value="1000"/>
 					<SalePrice Value="0" />
 				</li>
 				<li PriceTag="Trade">
-					<BuyPrice Value="1500" />
+					<BuyPrice Value="1000" />
 					<SalePrice Value="200" />
 				</li>
 				<li PriceTag="Auction">
-					<BuyPrice Value="50000" />
+					<BuyPrice Value="1000" />
 					<SalePrice Value="0" />
 				</li>
 			</Prices>
-			<Equip>
+			<!--<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
 					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
 					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
-				</EquptData>
+				</EquptData>-->
+
 				<HorseData>
 					<FromRace>JYLongShanNian</FromRace>
 					<Speed>20</Speed>
