@@ -15,7 +15,7 @@
 			<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
-					<--li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/-->
+					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
 					<li modifier="Modifier_Horse_JYLong_0" ValueScaleType="1"/>
 				</EquptData>
 				<HorseData>
@@ -56,7 +56,7 @@
 			<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
-					<--li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/-->
+					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
 					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
 				</EquptData>
 				<HorseData>
@@ -105,7 +105,7 @@
 			<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
-					<--li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/-->
+					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
 					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
 				</EquptData>
 				<HorseData>
@@ -142,7 +142,7 @@
 			<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
-					<--li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/-->
+					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
 					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
 				</EquptData>
 				<HorseData>
@@ -179,7 +179,7 @@
 			<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
-					<--li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/-->
+					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
 					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
 				</EquptData>
 				<HorseData>
@@ -216,7 +216,7 @@
 			<Equip>
 				<EquptData>
 					<li modifier="Modifier_Boss_Travelspeed_0" ValueScaleType="1"/>
-					<--li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/-->
+					<li modifier="Modifier_Boss_MaxLing_0" ValueScaleType="1"/>
 					<li modifier="Modifier_Horse_JYFeng_0" ValueScaleType="1"/>
 				</EquptData>
 				<HorseData>
