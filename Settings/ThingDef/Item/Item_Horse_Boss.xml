@@ -9,7 +9,7 @@
 			<BeMade>
               <CostStuffCount>1</CostStuffCount>
                <CostItems>
-                 <Item name="Item_LingStone" count="1" />
+                 <Item name="Item_LingStone" count="1000" />
                </CostItems>
             </BeMade>
 			<Equip>
@@ -50,7 +50,7 @@
 			<BeMade>
               <CostStuffCount>1</CostStuffCount>
                <CostItems>
-                 <Item name="Item_LingStone" count="1" />
+                 <Item name="Item_LingStone" count="1000" />
                </CostItems>
             </BeMade>
 			<Equip>
